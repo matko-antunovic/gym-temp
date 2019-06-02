@@ -1,0 +1,81 @@
+.h1{
+    font-size: 2.2rem;
+    font-family: $font-display;
+    font-weight: 400;
+}
+
+.h2{
+    font-size: 3.5rem;
+    font-family: $font-display;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $color-red;
+    letter-spacing: 2px;
+    text-shadow: .5rem 1rem 2rem  rgba(black, .2);
+    transition:all .2s;
+
+    &:hover {
+        transform: translateY(-1rem);
+        text-shadow: .5rem 1rem 2rem  rgba(black, .3);
+      }
+}
+
+.h3{
+    font-size: 2.5rem;
+    color:#fff;
+}
+
+.mb1{
+    margin-bottom: 2.5rem;
+}
+
+.h5{
+    font-size: 2rem;
+    color: $color-red;
+    font-family: $font-display;
+    font-weight: 400;
+}
+
+.h5w{
+    font-size: 2rem;
+    color: #fff;
+    font-family: $font-display;
+    font-weight: 400;
+}
+
+.link,
+link:visited{
+    font-size: 2rem;
+    text-decoration: none;
+    color:#fff;
+    background-color:$color-red-dark;
+}
+
+.btn{
+    background-color: $color-red-dark;
+    border:none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+.a{
+    font-size: 2rem;
+    color: $color-primary;
+    text-decoration: none;
+    margin-right:3rem;
+    font-weight:bold;
+    text-transform: uppercase;
+    animation: nav 3.4s 1;
+}
+
+
+@keyframes nav{
+    0%{
+        color: transparent;
+    }
+
+    90%{
+        color: transparent;
+    }
+}
